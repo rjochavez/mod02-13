@@ -123,13 +123,6 @@ body{
 	padding: 30px 0;
 	background: rgba(63,155,126,0.5);
 	box-shadow: 2px 2px 10px #000;
-	/*background: linear-gradient(90deg,
- rgba(255, 255, 255, 0) 0%,
- rgba(255, 255, 255, 0.2) 25%,
- rgba(255, 255, 255, 0.2) 75%,
- rgba(255, 255, 255, 0) 100%);
-box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
- inset 0 0 1px rgba(255, 255, 255, 0.6);*/
 }
 
 .title > h1{
@@ -217,12 +210,12 @@ box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 
 p.copyright{
 	background: linear-gradient(90deg,
-rgba(255, 255, 255, 0) 0%,
-rgba(255, 255, 255, 0.2) 25%,
-rgba(255, 255, 255, 0.2) 75%,
-rgba(255, 255, 255, 0) 100%);
-box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-inset 0 0 1px rgba(255, 255, 255, 0.6);
+	rgba(255, 255, 255, 0) 0%,
+	rgba(255, 255, 255, 0.2) 25%,
+	rgba(255, 255, 255, 0.2) 75%,
+	rgba(255, 255, 255, 0) 100%);
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+	inset 0 0 1px rgba(255, 255, 255, 0.6);
 	margin-left: -30px;
 	text-align: center;
 	margin-top: 400px;
