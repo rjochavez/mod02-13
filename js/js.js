@@ -42,11 +42,13 @@ $(document).ready(function(){
 		$(".navBar").addClass("hide_menu");
 		$(".toggle_menu").addClass("opacity_one");
 		$(".home,.services,.projects,.gallery,.contact").addClass("appear");
+		$(".home,.projects,.contact").addClass("fixed");
 	});
 
 	$(".toggle_menu").click(function(){
 		$(".navBar").removeClass("hide_menu");
 		$(".toggle_menu").removeClass("opacity_one");
 		$(".home,.services,.projects,.gallery,.contact").removeClass("appear");
+		$(".home,.projects,.contact").removeClass("fixed");
 	});
 });

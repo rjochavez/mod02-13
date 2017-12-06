@@ -93,13 +93,13 @@ body{
 
 .services,
 .projects,
-.gallery,
-.contact{
+.gallery{
 	height: 400px;
 	font-size: 2em;
 	padding-left: 30px;
 	padding-top: 20px;
 	font-weight: bolder;
+	transition: all ease-in-out 300ms;
 }
 
 .home,
@@ -108,8 +108,22 @@ body{
 	background: url("../img/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	transition: all ease-in-out 300ms;
 }
 
+.projects{
+	background: url("../img/bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
+	transition: all ease-in-out 300ms;
+	color: #fff;
+	text-shadow: 3px 3px 5px #000;
+}
+
+.fixed{
+	background-attachment: fixed;
+}
 
 
 .title{
@@ -291,15 +305,19 @@ p.copyright{
 	}
 
 	.services,
-	.projects,
 	.gallery{
 		height: 200px;
 		font-size: 20px;
 	}
 
 	.home,
-	.contact{
+	.contact,
+	.projects{
 		height: 400px;
+	}
+
+	.projects{
+		font-size: 20px;
 	}
 	
 	.title{
